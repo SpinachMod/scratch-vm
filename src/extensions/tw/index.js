@@ -10,7 +10,7 @@ const Cast = require('../../util/cast');
  * Class for NitroBolt blocks
  * @constructor
  */
-class NitroBoltBlocks {
+class SpinachModBlocks {
     constructor (runtime) {
         /**
          * The runtime instantiating this block package.
@@ -25,10 +25,10 @@ class NitroBoltBlocks {
     getInfo () {
         return {
             id: 'tw',
-            name: 'NitroBolt',
-            color1: '#ff5726',
-            color2: '#f34b1a',
-            color3: '#e63e0d',
+            name: 'SpinachMod',
+            color1: '#00B208',
+            color2: '#009600',
+            color3: '#006900',
             docsURI: 'https://docs.turbowarp.org/blocks',
             // menuIconURI: iconURI,
             // blockIconURI: iconURI,
@@ -103,4 +103,4 @@ class NitroBoltBlocks {
     }
 }
 
-module.exports = NitroBoltBlocks;
+module.exports = SpinachModBlocks;
