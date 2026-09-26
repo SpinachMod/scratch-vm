@@ -27,9 +27,7 @@ const defaultBuiltinExtensions = {
     boost: () => require('../extensions/scratch3_boost'),
     gdxfor: () => require('../extensions/scratch3_gdx_for'),
     // tw: core extension
-    tw: () => require('../extensions/tw'),
-    // nb: debugger extension
-    debugger: () => require('../extensions/nitrobolt_debugger')
+    tw: () => require('../extensions/tw')
 };
 
 const coreExtensions = [
