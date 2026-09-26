@@ -22,7 +22,6 @@ class SpinachModBlocks {
     /**
      * @returns {object} metadata for this extension and its blocks.
      */
-	 //SpinachMod...
     getInfo () {
         return {
             id: 'tw',
