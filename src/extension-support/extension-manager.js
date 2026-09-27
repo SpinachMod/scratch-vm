@@ -28,8 +28,8 @@ const defaultBuiltinExtensions = {
     gdxfor: () => require('../extensions/scratch3_gdx_for'),
 	
     scratch3Wireless: () => require('../extensions/scratch3_wireless'),
-    magicBlue: () => require('../extensions/scratch3_magic_blue_uu'),
-    scratchAuth: () => require('../extensions/jg_scratchAuth'),
+    magicBlueUU: () => require('../extensions/scratch3_magic_blue_uu'),
+    jgScratchAuth: () => require('../extensions/jg_scratchAuth'),
     adabrowser: () => require('../extensions/scratch3_adabrowser'),
     // tw: core extension
     tw: () => require('../extensions/tw')
