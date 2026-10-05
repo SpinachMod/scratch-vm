@@ -36,6 +36,7 @@ const setupUnsandboxedExtensionAPI = vm => new Promise(resolve => {
     Scratch.extensions = {
         unsandboxed: true,
         isNitroBolt: true,
+        isSpinachMod: true,
         register
     };
     Scratch.vm = vm;
